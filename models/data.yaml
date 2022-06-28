@@ -1,0 +1,8 @@
+train: data/images/train # path to train folder
+val: data/images/val # path to val folder
+
+# number of classes
+nc: 9
+
+# class names
+names: ['vit', 'oc dai', 'oc hoa', 'gay', 'oc ngan', 'oc tron', 'nap nhua', 'hai cham tron', 'vuong goc']
