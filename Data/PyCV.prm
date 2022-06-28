@@ -1,0 +1,50 @@
+[Basic]
+FileVersion = V01;
+
+[EquipmentInfo]				; serial number of equipment
+EquipNum = 34;
+
+[DebugInfo]
+CurrentPhaseDb = 0;
+
+
+[Crop]
+EnCrop = 0 ;crop image 1 = yes, 0 = no
+CropArea = 1035,621,1515,1209 ;area crop
+
+;-----------------------
+;   Web configuration
+;-----------------------
+
+[WebCamCtrl]
+Ena = 1; do you use Web camera ?          0=No, 1=Yes
+USBPort = 1;                # number of Camera
+Exposure = -2;-3;-5;
+ResolutionWidth = 2592;640 ; width picture
+ResolutionHigh = 1944;480 ;  high picture
+Brightness = 2;
+Contrast = 100;
+Hue = 5;
+Saturation = 40;
+Sharpness = 50;
+Gamma = -1;
+WhiteBalance = 6400;0;4600;
+Gain = 2.25;
+Rotation = 0;
+Roi = 0.7; always <1
+Cnf = 0.7; always <1
+Distance = 30;
+;-----------------------
+;   GPIO
+;-----------------------
+[GPIO]
+Ena = 0;1;                Enable GPIO 0=No, 1=Yes
+AllwayOnLamp =0;
+;-----------------------
+;   RS232
+;-----------------------
+[RSCOMM]
+Ena = 0;
+;-----------------------
+[TCP]
+Ena = 0;
